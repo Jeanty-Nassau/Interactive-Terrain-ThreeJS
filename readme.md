@@ -1,14 +1,23 @@
 # Displacement Field
 
-A focused Three.js creative-coding study, originally explored in 2022 and revisited in 2026 as part of a small graphics collection.
+An interactive radar-like signal terrain built from animated displacement, contour bands, scanning energy, and direct pointer input.
+
+Originally explored in 2022 and rebuilt in 2026 as one of three focused creative studies.
+
+## Interaction
+- Move the pointer to tilt and shift the field
+- Click or tap anywhere on the canvas to emit an expanding pulse
+- Use the on-screen control to trigger a centred pulse
 
 ## Techniques
-- Displacement maps
-- Alpha maps
-- Lighting
-- Pointer input
+- custom GLSL vertex displacement
+- contour and grid shading
+- animated scan band
+- pointer-driven surface response
+- click-triggered expanding pulse
+- additive wireframe layer
 
-## Run locally
+## Run
 
 ```bash
 npm install
@@ -20,7 +29,3 @@ Production build:
 ```bash
 npm run build
 ```
-
-## Portfolio context
-
-This is intentionally presented as a graphics study rather than a production application. It documents early WebGL experimentation and the progression toward more deliberate creative systems work.

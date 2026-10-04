@@ -48,3 +48,5 @@ button{
     font-weight: bold;
     text-transform: uppercase;
 }
+/* Portfolio study polish */
+.study-note{position:fixed;left:clamp(1rem,3vw,2.5rem);bottom:clamp(1rem,3vw,2.5rem);z-index:20;max-width:min(32rem,calc(100vw - 2rem));display:grid;gap:.35rem;padding:.85rem 1rem;border:1px solid rgba(255,255,255,.16);background:rgba(5,7,11,.72);backdrop-filter:blur(14px);color:#fff;font-family:Arial,sans-serif}.study-note strong{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}.study-note span{font-size:.78rem;line-height:1.45;color:rgba(255,255,255,.7)}.webgl{max-width:100%}@media(max-width:700px){.study-note{position:absolute}.hero__content{max-width:100%}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}

@@ -1,16 +1,26 @@
+# Displacement Field
 
+A focused Three.js creative-coding study, originally explored in 2022 and revisited in 2026 as part of a small graphics collection.
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+## Techniques
+- Displacement maps
+- Alpha maps
+- Lighting
+- Pointer input
 
-``` bash
-# Install dependencies (only the first time)
+## Run locally
+
+```bash
 npm install
-
-# Run the local server at localhost:8080
 npm run dev
+```
 
-# Build for production in the dist/ directory
+Production build:
+
+```bash
 npm run build
 ```
+
+## Portfolio context
+
+This is intentionally presented as a graphics study rather than a production application. It documents early WebGL experimentation and the progression toward more deliberate creative systems work.

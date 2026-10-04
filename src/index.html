@@ -1,3 +1,29 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Displacement Field, a Three.js terrain study."><title>Displacement Field — Three.js Study</title></head><body><main class="study-copy"><p class="eyebrow">THREE.JS STUDY / 03</p><h1>Displacement Field</h1><p>Height-map terrain responding to pointer input, light and displacement.</p><p class="hint">Move vertically to alter elevation.</p></main><div id="canvasContainer"><canvas class="webgl" aria-label="Interactive displaced terrain"></canvas></div><aside class="study-note" aria-label="About this study"><strong>Displacement Field</strong><span>A height-map terrain study exploring displacement, lighting and pointer-responsive elevation.</span></aside>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Displacement Field — an interactive Three.js terrain study using height maps, lighting and pointer input.">
+  <title>Displacement Field — Three.js Study</title>
+</head>
+<body>
+  <main class="study-shell">
+    <section class="study-copy">
+      <p class="eyebrow">THREE.JS STUDY / 03</p>
+      <h1>Displacement <span>Field</span></h1>
+      <p>A height-map surface study exploring displacement, texture, depth and light.</p>
+      <p class="hint">Move horizontally to tilt · Move vertically to raise the terrain.</p>
+    </section>
+
+    <div id="canvasContainer">
+      <canvas class="webgl" aria-label="Interactive displaced terrain"></canvas>
+    </div>
+
+    <aside class="controls-panel" aria-label="Terrain controls">
+      <strong>Pointer</strong>
+      <span>tilt / elevation</span>
+      <button type="button" data-reset-view>Reset</button>
+    </aside>
+  </main>
+</body>
+</html>
